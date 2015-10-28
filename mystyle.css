@@ -1,0 +1,90 @@
+body{
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+
+
+header{
+background-image:url(myphoto.jpg);
+background-size:100%;
+padding: 5em 0;
+border-top: 1em solid blue;
+
+}
+
+.head_intro, .head_name,.content_footer{
+	text-align: center;
+
+}
+
+.head_intro{
+	font-size:2em; 
+
+}
+.head_name{
+	font-weight: bold;
+	font-size: 3em;
+	text-transform:uppercase; 
+	color: white; 
+	text-shadow: 5px 5px 0px #7BBDD4, 7px 7px 0px #7BBDD4;
+}
+
+.introduction,
+.location,
+.more_info{
+	max-width:38em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4em; 
+	
+}
+
+.introduction >p ,
+.location >p,
+.more_info >p{
+	/* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+}
+
+h1{
+	font-size: 2em;
+	margin: 0.67em 0px;
+}
+
+h3{
+	font-family: "Gentium Book Basic",Georgia,serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.content_footer {
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #594F49;
+  padding:5em;
+}
+
+.social > li{
+  display: inline-block;
+  margin-right:2em;
+  
+}
+
+.social > li > a{
+  text-decoration: none;
+  color: #000;
+}
+.social > li > a:hover{
+  text-decoration: none;
+  color: #ccc;
+}
+.content_footer > p{
+ color:#fff;
+ text-shadow: 2px 2px 0px #000, 2px 2px 0px #707070;
+}
+
+
