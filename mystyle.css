@@ -7,63 +7,66 @@ body{
 
 
 
-header{
-background-image:url(myphoto.jpg);
-background-size:100%;
-padding: 5em 0;
-border-top: 1em solid blue;
-
+.masthead-heading,
+.masthead-intro ,
+.content-footer{
+    text-align: center;
 }
 
-.head_intro, .head_name,.content_footer{
-	text-align: center;
-
+.masthead{
+  padding:8em 0;
+  border-top:1em solid #0A556E;
+  background-image: url(https://images.unsplash.com/photo-1443453489887-98f56bc5bb38?q=80&fm=jpg&w=1080&fit=max&s=6427e017be565bf251502591ef57d8c7);
+  background-size:cover;
+  background-repeat: no-repeat;
+  color:#fff;
 }
 
-.head_intro{
-	font-size:2em; 
-
-}
-.head_name{
-	font-weight: bold;
-	font-size: 3em;
-	text-transform:uppercase; 
-	color: white; 
-	text-shadow: 5px 5px 0px #7BBDD4, 7px 7px 0px #7BBDD4;
+.masthead-intro{
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
 }
 
-.introduction,
-.location,
-.more_info{
-	max-width:38em;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 4em; 
-	
+.masthead-heading{
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing:-0.02em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0px #7BBDD4, 7px 7px 0px #7BBDD4;
 }
 
-.introduction >p ,
-.location >p,
-.more_info >p{
-	/* Typography Declarations */
-    font-weight: 300;
+
+.introduction-section,
+.questions-section,
+.location-section{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em;
+}
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
     letter-spacing: 0.05em;
-
 }
 
-h1{
-	font-size: 2em;
-	margin: 0.67em 0px;
+.questions-section > h3 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:#0A556E;
 }
 
-h3{
-	font-family: "Gentium Book Basic",Georgia,serif;
-	font-size: 1.2em;
-	font-weight: bold;
+section > h1{
+  margin-top:2em;
+  text-shadow: 2px 2px 0px #bbb, 3px 3px 0px #707070;
 }
 
-.content_footer {
-  /* Red, Green, Blue: #RRGGBB */
+.content-footer {
   background-color: #594F49;
   padding:5em;
 }
@@ -82,9 +85,7 @@ h3{
   text-decoration: none;
   color: #ccc;
 }
-.content_footer > p{
+.content-footer > p{
  color:#fff;
  text-shadow: 2px 2px 0px #000, 2px 2px 0px #707070;
 }
-
-
